@@ -9,6 +9,13 @@ import javax.swing.JOptionPane;
  * @version     1.00
  */
 public class IntroToProgrammingCourse implements WebAndSoftwareDegree{
+    
+    
+    private String firstName;
+    private String lastName;
+    private String studentID;
+    
+    
         @Override
     public String getCourseName() {
         return "Intro to Programming";
@@ -29,5 +36,31 @@ public class IntroToProgrammingCourse implements WebAndSoftwareDegree{
         return "None";
         
     }
+
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
+
+    public String getStudentID() {
+        return studentID;
+    }
+
+    public void setStudentID(String studentID) {
+        this.studentID = studentID;
+    }
+    
+    
     
 }

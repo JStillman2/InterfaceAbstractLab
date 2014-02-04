@@ -12,13 +12,16 @@ package lab2;
  */
 public interface WebAndSoftwareDegree {
     
-        public final String  school = "WCTC";
+       public static final String school = "WCTC";
+       
     
         public abstract String getCourseName();
         public abstract String getCourseNumber();
         public abstract double getCourseCredits();
         public abstract String getPrereq();
         
+        }
+        
         
     
-}
+

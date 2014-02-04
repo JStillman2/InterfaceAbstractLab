@@ -13,7 +13,7 @@ public class IntroJavaCourse extends WebAndSoftwareDegree{
     
         @Override
     public String getCourseName() {
-        return "Intro to Programming";
+        return "Intro to Java Programming";
     }
 
     @Override

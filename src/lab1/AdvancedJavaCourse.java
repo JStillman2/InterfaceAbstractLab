@@ -15,7 +15,7 @@ public class AdvancedJavaCourse extends WebAndSoftwareDegree{
     
         @Override
     public String getCourseName() {
-        return "Intro to Programming";
+        return "Advanced Java";
     }
 
     @Override

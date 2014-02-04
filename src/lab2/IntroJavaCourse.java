@@ -8,9 +8,15 @@ package lab2;
  */
 public class IntroJavaCourse implements WebAndSoftwareDegree{
 
+    
+    private String firstName;
+    private String lastName;
+    private String studentID;
+    
+    
         @Override
     public String getCourseName() {
-        return "Intro to Programming";
+        return "Intro to Java Programming";
     }
 
     @Override
@@ -28,5 +34,31 @@ public class IntroJavaCourse implements WebAndSoftwareDegree{
         return "Intro to Programming";
         
     }
+
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
+
+    public String getStudentID() {
+        return studentID;
+    }
+
+    public void setStudentID(String studentID) {
+        this.studentID = studentID;
+    }
     
+    
+   
 }

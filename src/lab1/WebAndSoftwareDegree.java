@@ -12,12 +12,41 @@ package lab1;
  */
 public abstract class WebAndSoftwareDegree {
     
+    private String firstName;
+    private String lastName;
+    private String studentID;
+    
+    
     private final String  school = "WCTC";
     
         public abstract String getCourseName();
         public abstract String getCourseNumber();
         public abstract double getCourseCredits();
         public abstract String getPrereq();
+
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
+
+    public String getStudentID() {
+        return studentID;
+    }
+
+    public void setStudentID(String studentID) {
+        this.studentID = studentID;
+    }
         
         
         
