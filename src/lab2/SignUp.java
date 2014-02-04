@@ -8,16 +8,12 @@ package lab2;
 
 /**
  *
- * @author Jay
+ * @author jstillman2
  */
 public class SignUp {
     
-            /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        
-        AdvancedJavaCourse stu1 = new AdvancedJavaCourse();
+       AdvancedJavaCourse stu1 = new AdvancedJavaCourse();
         stu1.setFirstName("Nicole");
         stu1.setLastName("Stage");
         stu1.setStudentID("0004561021");
@@ -59,11 +55,6 @@ public class SignUp {
         System.out.println("Course Number: " + stu3.getCourseNumber());
         System.out.println("Prerequisites: " + stu3.getPrereq());
         
-        
-        
-        
-       
-        
-        }
+}
     
 }
