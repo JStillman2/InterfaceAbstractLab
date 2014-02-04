@@ -3,7 +3,6 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
 package lab2;
 
 /**
@@ -11,17 +10,23 @@ package lab2;
  * @author Jay
  */
 public interface CollegeCourse {
-    
-       public static final String school = "WCTC";
-       
-    
-        public abstract String getCourseName();
-        public abstract String getCourseNumber();
-        public abstract double getCourseCredits();
-        public abstract String getPrereq();
-        
-        }
-        
-        
-    
 
+    public static final String school = "WCTC";
+
+    public abstract String getCourseName();
+
+    public abstract String getCourseNumber();
+
+    public abstract double getCourseCredits();
+
+    public abstract String getPrereq();
+
+//    public abstract String setCourseName();
+//
+//    public abstract String setCourseNumber();
+//
+//    public abstract double setCourseCredits();
+//
+//    public abstract String setPrereq();
+
+}
