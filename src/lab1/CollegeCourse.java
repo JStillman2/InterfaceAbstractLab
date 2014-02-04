@@ -3,26 +3,27 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
 package lab1;
 
 /**
  *
  * @author Jay
  */
-public abstract class WebAndSoftwareDegree {
-    
+public abstract class CollegeCourse {
+
     private String firstName;
     private String lastName;
     private String studentID;
-    
-    
-    private final String  school = "WCTC";
-    
-        public abstract String getCourseName();
-        public abstract String getCourseNumber();
-        public abstract double getCourseCredits();
-        public abstract String getPrereq();
+
+    private final String school = "WCTC";
+
+    public abstract String getCourseName();
+
+    public abstract String getCourseNumber();
+
+    public abstract double getCourseCredits();
+
+    public abstract String getPrereq();
 
     public String getFirstName() {
         return firstName;
@@ -47,13 +48,5 @@ public abstract class WebAndSoftwareDegree {
     public void setStudentID(String studentID) {
         this.studentID = studentID;
     }
-        
-        
-        
 
 }
-
-        
-        
-    
-

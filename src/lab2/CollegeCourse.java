@@ -10,7 +10,7 @@ package lab2;
  *
  * @author Jay
  */
-public interface WebAndSoftwareDegree {
+public interface CollegeCourse {
     
        public static final String school = "WCTC";
        
