@@ -12,6 +12,11 @@ public class IntroJavaCourse implements CollegeCourse{
     private String firstName;
     private String lastName;
     private String studentID;
+    private String courseName;
+    private String courseNumber;
+    private int courseCredits;
+    private String prereq;
+    
     
     
         @Override
@@ -32,6 +37,26 @@ public class IntroJavaCourse implements CollegeCourse{
     @Override
     public String getPrereq() {
         return "Intro to Programming";
+        
+    }
+    
+    
+    public void String setCourseName(String courseName){
+        this.courseName = courseName;
+        
+             
+    }
+        public void setCourseNumber(String courseNumber){
+        this.courseNumber = courseNumber;
+    }
+    
+    public double setCourseCredits(int courseCredits){
+        this.courseCredits = courseCredits;
+        return 0;
+    }
+    
+    public String setPrereq(String prereq){
+        this.prereq = prereq;
         
     }
 

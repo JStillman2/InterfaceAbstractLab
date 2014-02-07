@@ -11,7 +11,7 @@ package lab2;
  */
 public interface CollegeCourse {
 
-    public static final String school = "WCTC";
+    
 
     public abstract String getCourseName();
 
@@ -21,12 +21,12 @@ public interface CollegeCourse {
 
     public abstract String getPrereq();
 
-//    public abstract String setCourseName();
-//
-//    public abstract String setCourseNumber();
-//
-//    public abstract double setCourseCredits();
-//
-//    public abstract String setPrereq();
+    public abstract String setCourseName();
+
+    public abstract String setCourseNumber();
+
+    public abstract double setCourseCredits();
+
+    public abstract String setPrereq();
 
 }
